@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- if you delete this viewport meta tag the earth will open up below your feet and swallow you. -->
+	<meta content="width=device-width" name="viewport"><!-- attempting to tell devices to keep their hands off certain styles but iOS is a stubborn playmate -->
+	<meta content="telephone=no" name="format-detection">
+	<meta content="date=no" name="format-detection">
+	<meta content="address=no" name="format-detection">
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+	<title>Series Template</title>
+	<style type="text/css">
+@media (max-width: 420px) { 
+	div, p, a, li, td { -webkit-text-size-adjust:none; }
+	p, h2 { word-spacing:-2px; letter-spacing: 0.02em!important; }
+		*[class=wrapper], *[class=hero], *[class=hero-header], *[class=module-table], *[class=hero] img, *[class=logo-header], *[class=promo-module], *[class=text-module], *[class=main-nav], *[class=footer-links], *[class=footer-legal] { width:320px!important; }
+
+		*[class=hero-text] {padding-left: 20px !important;}	
+		*[class=nuke] { display:none!important; }
+		*[class=main-nav-img] {padding: 0 !important;}	
+		*[class=nav-reality], *[class=nav-comedy] { display: none !important; } 
+		
+		*[class=promo-module] { overflow: hidden !important;}
+		 	*[class=two-mod-text], *[class=text-tagline] { padding-left: 20px !important;}
+		*[class=two-module] { display: block !important; }
+		*[class=two-module-img] { width: 320px !important; }
+		  
+		*[class=footer-links] {  }
+		*[class=inner-footer] { padding: 0 !important;}
+		*[class=legal-inner] { padding: 20px !important;}
+				
+		*[class=social-separator] { height: 2px !important;}
+		*[class=social-icon] { padding: 0 90px 0 0 !important;}		
+		*[class=social-links-td] { text-align: center !important; padding: 30px 0 30px 20px !important;}
+		*[class=social-row-separator] { height: 30px !important;}
+		*[class=icon-3] { padding-right: 0 !important;}
+		
+		}
+		body[yahoo] .mailContent .view-full-schedule { margin:27px; }
+	</style>
+</head>
+
+<body bgcolor="#FFFFFF" style="background:#ffffff; margin:0;">
+	<table border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; padding:0; margin:0; background:#ffffff; width: 100%;" width="100%">
+		<tbody>
+			<tr valign="top">
+				<td align="center" class="wrapper" style="width:600px; display: block; margin: 0 auto;" width="600">
+					
+					<table class="module-table" cellpadding="0" cellspacing="0" border="0" height="156" style="width:600px">
+						<tr><td alignt="center" style="background:#ffffff; color: #838383; font-size: 10px; font-family:Helvetica,Arial,sans-serif; text-align: center; padding: 10px 0 10px 0;" bgcolor="#ffffff">
+							To view a web version of this message, Click <a href="#" style="color: #838383;">Here</a>
+						</td></tr>
+						<tr><td height="6" style="background:#00a2cf;" bgcolor="#00a2cf"></td></tr>	
+						<tr>
+							<td bgcolor="#111216" height="156">
+								<table class="logo-header" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse; padding:0; margin:0;">
+									<tr>
+										<td class="nuke" width="140"><img src="http://www.sho.com/assets/email/temp/series/series-header-1.jpg" /></td>
+										<td width="320"><img src="http://www.sho.com/assets/email/temp/series/series-header-2.jpg" /></td>
+										<td class="nuke" width="140"><img src="http://www.sho.com/assets/email/temp/series/series-header-3.jpg" /></td>
+									</tr>
+								</table>		
+							</td>
+						</tr>
+					</table>			
+
+					<table cellpadding="0" cellspacing="0" class="main-nav" style="background: #ffffff; background-color: #ffffff; height: 45px; width:600px;">
+						<tbody>
+							<tr>
+								<td class="nuke" valign="absmiddle" width="27">
+									<img height="45" src="http://www.sho.com/site/accounts/image-bin/email/spacer.gif" style="display: block;" width="27">
+								</td>
+								<td class="main-nav-img" valign="absmiddle" style="padding: 0 10px 0 0;">
+									<a href="http://www.sho.com/sho/shameless/home#"><img alt="ABOUT" height="45" src="http://www.sho.com/assets/email/temp/series/nav-about.gif" style="border:none; display: block;" width="60"></a>
+								</td>
+								<td class="main-nav-img" valign="absmiddle" style="padding: 0 10px 0 0;">
+									<a href="http://www.sho.com/sho/shameless/video/season/5"><img alt="VIDEO" height="45" src="http://www.sho.com/assets/email/temp/series/nav-video.gif" style="border:none; display: block;" width="60"></a>
+								</td>
+								<td class="main-nav-img" valign="absmiddle">
+									<a href="http://www.sho.com/sho/shameless/season/5#/index"><img alt="EPISODE GUIDE" height="45" src="http://www.sho.com/assets/email/temp/series/nav-eguide.gif" style="border:none; display: block;" width="105"></a>
+								</td>
+								<td class="nuke" valign="absmiddle">
+									<a href="http://store.sho.com/shameless-season-4-dvd/detail.php?p=702760&v=showtime_shows_shameless_dvds"><img alt="SHOP" height="45" src="http://www.sho.com/assets/email/temp/series/nav-shop.gif" style="border:none; display: block;" width="60"></a>
+								</td>
+								<td class="nuke" valign="absmiddle">
+									<a href="http://www.sho.com/sho/schedules/ondemand/series/#/series/408/shameless"><img alt="SCHEDULE" height="45" src="http://www.sho.com/assets/email/temp/series/nav-schedule.gif" style="border:none; display: block;" width="105"></a>
+								</td>						
+								<td>
+									<a href="http://www.sho.com/sho/order/home"><img alt="ORDER" height="45" src="http://www.sho.com/assets/email/temp/series/nav-order.gif" style="border:none; display: block;" width="60"></a>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					
+					<table cellpadding="0" cellspacing="0" class="hero-header" style="border-collapse:collapse; background:#00a2cf; width:600px">
+						<tr><td colspan="2"><img height="40"src="http://www.sho.com/site/accounts/image-bin/email/spacer.gif" style="display: block; height: 40px;" /></td></tr>
+						<tr>							
+							<td class="hero-text" style="font-size:13px; font-family:Helvetica,sans-serif; margin:0; padding-left: 40px; color:#ffffff;">Sun 9PM ET/PT</td>
+						</tr>
+						<tr><td><img height="5"src="http://www.sho.com/site/accounts/image-bin/email/spacer.gif" style="display: block; height: 5px;" /></td></tr>
+						<tr>							
+							<td class="hero-text" style="padding-left: 40px;">
+							<h1 style="font-size:34px; line-height: 40px; font-family:Helvetica,Arial,sans-serif; margin:0; padding: 0; color:#ffffff;">ON THE NEXT EPISODE</h1>
+							</td>
+						</tr>
+						<tr><td colspan="2"><img height="40"src="http://www.sho.com/site/accounts/image-bin/email/spacer.gif" style="display: block; height: 40px;" /></td></tr>
+					</table>				
+
+					<table border="0" cellpadding="0" cellspacing="0" class="hero" style="border-collapse:collapse; width:600px">
+						<tbody>
+							<tr>
+								<td>
+									<a href="http://www.sho.com/sho/video/titles/34031/shameless-season-5-premiere"><img style="border:none; display: block;" src="http://www.sho.com/assets/email/temp/series/hero.jpg" alt="hero" / ></a>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					
+					<table border="0" cellpadding="0" cellspacing="0" class="text-module" style="border-collapse:collapse; background: #242424; width:600px">
+						<tbody>
+							<tr>
+								<td class="text-tagline" style="font-size:20px; font-family:Helvetica,Arial,sans-serif; margin: 0 !important; padding: 40px 0 10px 45px; color:#ffffff; ">Fiona lorem dgsd Ipsum dolor
+								</td>
+							</tr>
+							<tr>
+								<td class="text-tagline" style="line-height: 26px; font-size:15px; font-family:Helvetica,Arial,sans-serif; margin:0; padding: 0 0 20px 45px; color:#b2b1b1;">Lorem ipsum dolor sit amet, consectetur adipiscing.Lorem ipsum dolor sit amet, consectetur adipiscing.</td></tr>
+							<tr>
+								<td class="text-tagline" style="font-size:15px; font-family:Helvetica,Arial,sans-serif; margin:0; padding: 0 0 80px 45px; color:#00a2cf;">
+									<a href="http://www.sho.com/sho/video/titles/34031/shameless-season-5-premiere" style="color: #00a2cf; text-decoration: none;">Watch Full Episode <img src="http://www.sho.com/assets/images/series/shameless/icons/play_7x11.png" /></a>
+								</td>
+							</tr>
+						</tbody>
+					</table>			
+
+					<table border="0" cellpadding="0" cellspacing="0" class="promo-module" style="border-collapse:collapse; border-top:1px solid #000000; border-bottom:1px solid #000000; border-left:none; border-right:none; background: #242424; width:600px;">
+						<tbody>
+							<tr>
+								<td class="two-module"><a href="#">
+									<img class="two-module-img" alt="Watch full Episodes" src="http://www.sho.com/assets/email/temp/series/promo-1.jpg" width="306" style="display:block; border:none;" /></a>
+								</td>		
+								<td class="two-module">
+									<table border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; background:#242424; width:100%">
+										<tbody>
+											<tr>
+												<td class="two-mod-text" style="font-size:20px; font-family:Helvetica,Arial,sans-serif; margin: 0 !important; padding: 40px 35px 10px 45px; color:#ffffff; ">Fiona: Promo spot 1
+												</td>
+											</tr>
+											<tr>
+												<td  class="two-mod-text" style="line-height: 26px; font-size:15px; font-family:Helvetica,Arial,sans-serif; margin:0; padding: 0 35px 20px 45px; color:#b2b1b1;">Lorem ipsum dolor sit amet, consectetur adipiscing.Lorem ipsum dolor sit amet, consectetur adipiscing.</td></tr>
+											<tr>
+												<td  class="two-mod-text" style="font-size:15px; font-family:Helvetica,Arial,sans-serif; margin:0; padding: 0 35px 80px 45px; color:#00a2cf;">
+													<a href="http://www.sho.com/sho/video/titles/34031/shameless-season-5-premiere" style="color: #00a2cf; text-decoration: none;">Watch Full Episode <img src="http://www.sho.com/assets/email/temp/series/arrow-blue.gif" width="6" height="9" /></a>
+												</td>
+											</tr>
+										</tbody>
+									</table>	
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					
+					<table border="0" cellpadding="0" cellspacing="0" class="promo-module" style="border-collapse:collapse; border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left:none; border-right:none; background:#242424; width:600px">
+						<tbody>
+							<tr>
+								<td class="two-module"><a href="#">
+									<img class="two-module-img" alt="Watch full Episodes" src="http://www.sho.com/assets/email/temp/series/promo-2.jpg" width="306" style="display:block; border:none;" /></a>
+								</td>		
+								<td class="two-module">
+									<table border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; background: #242424; width:100%">
+										<tbody>
+											<tr>
+												<td class="two-mod-text" style="font-size:20px; font-family:Helvetica,Arial,sans-serif; margin: 0 !important; padding: 40px 35px 10px 45px; color:#ffffff; ">Frank did it again!
+												</td>
+											</tr>
+											<tr>
+												<td  class="two-mod-text" style="line-height: 26px; font-size:15px; font-family:Helvetica,Arial,sans-serif; margin:0; padding: 0 35px 20px 45px; color:#b2b1b1;">Lorem ipsum dolor sit amet, consectetur adipiscing.Lorem ipsum dolor sit amet, consectetur adipiscing.</td></tr>
+											<tr>
+												<td  class="two-mod-text" style="font-size:15px; font-family:Helvetica,Arial,sans-serif; margin:0; padding: 0 35px 80px 45px; color:#00a2cf;">
+													<a href="http://www.sho.com/sho/video/titles/34031/shameless-season-5-premiere" style="color: #00a2cf; text-decoration: none;">Watch Full Episode <img src="http://www.sho.com/assets/email/temp/series/arrow-blue.gif" width="6" height="9" /></a>
+												</td>
+											</tr>
+										</tbody>
+									</table>	
+								</td>
+							</tr>
+						</tbody>
+					</table>
+										
+					<table border="0" cellpadding="0" cellspacing="0" width="600" class="promo-module" style="border-collapse:collapse; border:none; background:#242424; width:600px">
+						<tbody>
+							<tr>
+								<td class="two-module"><a href="#">
+									<img class="two-module-img" src="http://www.sho.com/assets/email/temp/series/banner-img-lt.gif" height="123" style="display:block; border:none;" /></a>
+								</td>		
+								<td class="two-module"><a href="#">
+									<img class="two-module-img" src="http://www.sho.com/assets/email/temp/series/banner-img-rt.jpg" height="123" style="display:block; border:none;" /></a>									
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				
+					<table border="0" cellpadding="0" cellspacing="0" width="600" class="footer-links" style="border-collapse:collapse; background: #000000; width:600px;">
+						<tbody>
+							<tr>
+								<td class="inner-footer" style="padding: 50px;">
+									<table border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; background: #000000; width: 100%;">
+										<tr>
+											<td style="background:#1f1f1f; font-size:12px; font-family:Helvetica,Arial,sans-serif; margin:0; padding:20px;" valign="middle">
+												<a href="http://www.sho.com/sho/schedules/index" style="color:#ffffff; text-decoration:none; display:block;">VIEW FULL SCHEDULE <img src="http://www.sho.com/assets/email/temp/series/arrow-blue.gif" align="right" width="6" height="9" style="border:none;" /></span></a>
+											</td>								
+										</tr>
+										<tr>
+											<td style="background:#1f1f1f; font-size:12px; font-family:Helvetica,Arial,sans-serif; margin:0; border-top: 2px solid #000000; border-bottom: 2px solid #000000; padding: 20px;" valign="middle">
+												<a href="http://www.sho.com/sho/schedules/ondemand/series" style="color:#ffffff; text-decoration:none; display:block;">WATCH ON DEMAND <img src="http://www.sho.com/assets/email/temp/series/arrow-blue.gif" align="right" width="6" height="9" style="border:none;" /></span></a>
+											</td>								
+										</tr>
+										<tr>
+											<td style="background:#1f1f1f; font-size:12px; font-family:Helvetica,Arial,sans-serif; margin:0; padding:20px;" valign="middle">
+												<a href="http://www.sho.com/sho/order/home" style="color:#ffffff; text-decoration:none; display:block;">ORDER SHOWTIME <img src="http://www.sho.com/assets/email/temp/series/arrow-blue.gif" align="right" width="6" height="9" style="border:none;" /></span></a>
+											</td>								
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr><td class="social-separator" style="height: 0px;"></td></tr>
+							<tr>
+								<td class="inner-footer" style="padding: 0 50px 50px 50px;">
+									<table border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; background:#1f1f1f; width: 100%;">										
+										<tr>
+											<td class="nuke" style="color:#ffffff; font-size:12px; font-family:Helvetica,Arial,sans-serif; padding:0 20px 0 20px;">FOLLOW US</td>
+											<td class="social-links-td"style="padding: 17px;" align="right">
+												<table border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
+													<tr>
+														<td class="two-module">
+															<table border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
+																<tr>
+																	<td class="social-icon" height="34" style="padding-right:15px;"><a href="https://www.facebook.com/showtime"><img src="http://www.sho.com/assets/email/temp/series/social-fb.gif" width="34" height="34" style="display:block; border:none;" alt="Facebook" /></a></td>
+																	<td class="social-icon" height="34" style="padding-right:15px;"><a href="http://www.twitter.com/SHO_Network"><img src="http://www.sho.com/assets/email/temp/series/social-tw.gif" width="34" height="34" style="display:block; border:none;" alt="Twitter" /></a></td>
+																	<td class="social-icon icon-3" style="padding-right:15px;"><a href="https://plus.google.com/+Showtime/posts"><img src="http://www.sho.com/assets/email/temp/series/social-gp.gif" width="34" height="34" style="display:block; border:none;" alt="Google Plus" /></a></td>
+																</tr>
+																<tr><td class="social-row-separator" style="height:0;"></td></tr>																
+															</table>
+														</td>
+														<td class="two-module">
+															<table border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
+																<tr>
+																	<td class="social-icon" height="34" style="padding-right:15px;"><a href="http://www.youtube.com/user/showtime"><img src="http://www.sho.com/assets/email/temp/series/social-yt.gif" width="34" height="34" style="display:block; border:none;" alt="YouTube" /></a></td>
+																	<td class="social-icon" height="34" style="padding-right:15px;"><a href="http://pinterest.com/shonetworks/"><img src="http://www.sho.com/assets/email/temp/series/social-pt.gif" width="34" height="34" style="display:block; border:none;" alt="Pinterest" /></a></td>
+																	<td class="social-icon icon-3" style="padding-right:0;"><a href="http://instagram.com/showtime"><img src="http://www.sho.com/assets/email/temp/series/social-ig.gif" width="34" height="34" style="display:block; border:none;" alt="Instagram" /></a></td>
+																</tr>
+															</table>	
+														</td>
+													</tr>
+												</table>
+											</td>	
+										</tr>										
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					
+					<table border="0" cellpadding="0" cellspacing="0" class="footer-legal" style="width:600px; border-collapse:collapse; background:#ffffff;">
+						<tbody>
+							<tr>
+								<td class="legal-inner" style="color: #999999; line-height:18px; font-size:10px; font-family:Helvetica,Arial,sans-serif; margin:0; padding: 50px 30px 50px 30px;">You're receiving this email because you're a Showtime user. Not interested? Unsubscribe <a href="#" style="color:#999999;">here</a>. ©2015 Showtime Networks Inc., a CBS Company. All rights reserved.<br>
+								Showtime Networks Inc.,1633 Broadway, New York, NY 10019.<br><br>
+
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur<br>
+								quam eget diam cursus, in lobortis dolor rutrum. Pellen tesque ac semper nunc. Quisque id mattis nisi. Etiam id metus risus.
+							</tr>
+						<tbody>
+					</table>						
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
