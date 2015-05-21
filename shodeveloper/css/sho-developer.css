@@ -3,6 +3,11 @@
 */
 
 
-#dl-tags a {
-	padding: 0 5px;
+#display-results a {
+	padding: 0 10px;
+	line-height: 2.2em;
+}
+
+.panel-body {
+   word-break: break-all;   
 }

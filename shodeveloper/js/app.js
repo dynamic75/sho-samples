@@ -11,12 +11,16 @@
     _.extend(shoDev, {
 		user: "shodeveloper",
         baseUrl: "http://feeds.delicious.com/v2/json/",
-        tags_container: $("#dl-tags"),
+        results_container: $("#display-results"),
+        results_title: $(".panel-title"),
+        tagsLink: $("#tags-link"),
+        bookmarksLink: $("#bookmarks-link"),
 		tags: []
     });
     
     function initialize(){
-       getBookMarks();        
+       getBookMarks();
+       setLinkHandlers();        
     }    
             
     function getBookMarks(){  
@@ -29,23 +33,48 @@
                 _.each(data, function(v,i){
 					shoDev.tags.push(v["t"])	
                 })
-				shoDev.tags = _.uniq(_.flatten(shoDev.tags))
-				console.log(shoDev.tags)
-				createTagLinks();
+				shoDev.tags = _.uniq(_.flatten(shoDev.tags));				
             }
         })
     } 
 	
-	function createTagLinks(){
+	function displayTagLinks(){
+	    shoDev.results_container.html("");
 		_.each(shoDev.tags, function(tag,i){
-			shoDev.tags_container
+			shoDev.results_container
 			 .append($("<a></a>")
 			 .attr({"data":tag, "href": "#"+tag})
 			 .text(tag))
 		})
+	}
+	
+	function displayBookmarks(){
+	    shoDev.results_container.html("<ol></ol>");
+	    var li;
+	  _.each(shoDev.bookMarks, function(b,i){
+	      li = ['<li><a href="', b.u,'"','target="_blank">',b.d,"</a></li>"].join('');      
+	      shoDev.results_container.find("ol").append( $(li) );
+	      //shoDev.results_container.append( $(li) );	      
+	    })
+	    //console.log(shoDev.results_container.find("ol"))  
+	}	
+	
+	function setLinkHandlers(){
+	    shoDev.tagsLink.on("click", function(e){	        
+	        e.stopPropagation();
+	        if(shoDev.results_title.attr("data") == "all-tags") return	        
+	        shoDev.results_title.html("All Tags").attr("data", "all-tags")
+	        displayTagLinks();
+	    });
+	    shoDev.bookmarksLink.on("click", function(e){	        
+	        e.stopPropagation();
+	        if(shoDev.results_title.attr("data") == "all-bookmarks") return	        
+	        shoDev.results_title.html("All Bookmarks").attr("data", "all-bookmarks")
+	        displayBookmarks();
+	    })
 	}    
     
-    initialize()    
+    initialize();    
       
    
 })(jQuery)
