@@ -3,9 +3,21 @@
 */
 
 
+#display-results{
+    font-size: 1.5em;
+}
+
 #display-results a {
 	padding: 0 10px;
 	line-height: 2.2em;
+}
+
+
+#display-results ol li {
+    font-weight: bold;
+}
+#display-results ol li a {
+    font-weight: normal;
 }
 
 .panel-body {
