@@ -37,10 +37,11 @@
     } 
 	
 	function createTagLinks(){
-		var anchor = $("<a></a>");
 		_.each(shoDev.tags, function(tag,i){
-			anchor.attr({"data": tag, "text": tag});
-			$(shoDev.tags_container).append(anchor)
+			shoDev.tags_container
+			 .append($("<a></a>")
+			 .attr({"data":tag, "href": "#"+tag})
+			 .text(tag))
 		})
 	}    
     
