@@ -4,62 +4,47 @@
     One page app, creates wrapper functions around Delicious JSON api
 */
 
-
-
 !(function($){   
     
-    var shoDev = shoDev || {};
+    window.shoDev = window.shoDev || {};
     
     _.extend(shoDev, {
-        baseUrl: "http://feeds.delicious.com/v2/json/shodeveloper",
+		user: "shodeveloper",
+        baseUrl: "http://feeds.delicious.com/v2/json/",
         tags_container: $("#dl-tags"),
-        tags: []
+		tags: []
     });
     
     function initialize(){
-       getTags();        
+       getBookMarks();        
     }    
             
-    function getTags(){
-        
+    function getBookMarks(){  
         $.ajax({
-            url: shoDev.baseUrl,
+            url: shoDev.baseUrl + shoDev.user,
             crossDomain: true,
             dataType: "jsonp",
             success: function(data){
-                shoDev.links = data;
-                sortTags();
+				shoDev.bookMarks = data;
+                _.each(data, function(v,i){
+					shoDev.tags.push(v["t"])	
+                })
+				shoDev.tags = _.uniq(_.flatten(shoDev.tags))
+				console.log(shoDev.tags)
+				createTagLinks();
             }
         })
     } 
-    
-    function sortTags(){
-        _.each(shoDev.links, function(link){
-            shoDev.tags.push(link.t)
-        })
-        console.log(shoDev.tags)
-        var flat = _.flatten(shoDev.tags)
-        console.log(flat)
-        //_.uniq(tags);
-    }     
+	
+	function createTagLinks(){
+		var anchor = $("<a></a>");
+		_.each(shoDev.tags, function(tag,i){
+			anchor.attr({"data": tag, "text": tag});
+			$(shoDev.tags_container).append(anchor)
+		})
+	}    
     
     initialize()    
       
    
 })(jQuery)
-
-
-/*
-// working jsponp example
-
-var url = "http://feeds.delicious.com/v2/json/shodeveloper";
-
-$.ajax({
-    url: url,
-    crossDomain: true,
-    dataType: "jsonp",
-    success: function(data){
-        console.log(data);
-    }
-})
-*/
